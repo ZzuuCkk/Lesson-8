@@ -20,7 +20,6 @@ a{
 
 /* header */
 .container {
-	max-width: 1920px;
 	width: 100%;
 	margin: auto;
 	padding: 40px 240px;
@@ -52,7 +51,7 @@ a{
 .navbar-li{
     transition: all;
     transition-delay: 0ms;
-    transition-duration:0.5s;
+    transition-duration:0.5s
     transition-timing-function: linear;
 }
 .navbar-li:hover{
@@ -81,9 +80,8 @@ section{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 1920px;
-    width: 100%;
-    padding: 200px 240px;
+    width: 90%;
+    margin: 150px auto;
 
 }
 
