@@ -1,0 +1,174 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style-type: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* main styles */
+
+/* header */
+.container {
+	max-width: 1920px;
+	width: 100%;
+	margin: auto;
+	padding: 40px 240px;
+    background-color: #0A22F4;
+}
+
+
+.nav-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.navbar-li a{
+    font-family: helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+.navbar-li{
+    transition: all;
+    transition-delay: 0ms;
+    transition-duration:0.5s;
+    transition-timing-function: linear;
+}
+.navbar-li:hover{
+    
+    border-bottom: 1px solid #FFFFFF;
+}
+
+
+button{
+    width: 160px;
+    height: 55px;
+    border-radius:28px;
+    margin-top: -35px;
+    border: none;
+    color: #171717;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+
+/* section */
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    width: 100%;
+    padding: 200px 240px;
+
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.section-title{
+    font-family: helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 39px;
+}
+
+/* dots */
+.slider{
+    display: flex;
+    width: 80px;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.slide-dots{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #dee0ee;
+    transition-delay: 0ms;
+    transition-duration:1s;
+    transition-timing-function: linear;
+}
+
+.slide-dots:hover{
+    background-color: #0A22F4;
+}
+
+
+.chart-slide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    padding-top:60px ;
+}
+
+.chart{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    max-height: 235px;
+    height: 100%;
+}
+
+.square{
+    width: 70px;
+    height: 70px;
+    background-color: #F9F9F9;
+    transition-delay: 0ms;
+    transition-duration:1s;
+    transition-timing-function: linear;
+    
+}
+
+.square:hover{
+    background-color:#0A22F4 ;
+    cursor: pointer;
+}
+
+
+.chart-h{
+    padding-top: 40px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: #171717;
+    font-size: 22px;
+    line-height: 26px;
+}
+.chart-txt{
+    padding-top: 20px;
+    font-family: helvetica2;
+    font-size: 16px;
+    line-height: 26px;
+    color: #171717;
+}
