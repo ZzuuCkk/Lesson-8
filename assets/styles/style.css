@@ -20,7 +20,7 @@ a{
 
 /* header */
 .container {
-	width: 100%;
+    width: 100%;
     padding: 40px 0;
     background-color: #0A22F4;
 }
@@ -51,7 +51,7 @@ a{
 .navbar-li{
     transition: all;
     transition-delay: 0ms;
-    transition-duration:0.5s
+    transition-duration:0.5s;
     transition-timing-function: linear;
 }
 .navbar-li:hover{
