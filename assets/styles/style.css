@@ -21,8 +21,7 @@ a{
 /* header */
 .container {
 	width: 100%;
-	margin: auto;
-	padding: 40px 240px;
+    padding: 40px 0;
     background-color: #0A22F4;
 }
 
@@ -30,8 +29,9 @@ a{
 .nav-wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 600px;
 }
 
 
